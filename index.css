@@ -1,4 +1,4 @@
-body, html {
+body, html{
     margin: 0;
     padding: 0;
     height: 100%;
@@ -11,7 +11,7 @@ body, html {
 }
 
 
-.fronter {
+.fronter{
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -20,7 +20,7 @@ body, html {
     margin-bottom: 0;
 }
 
-.fronter video {
+.fronter video{
     position: absolute;
     top: 0;
     left: 0;
@@ -29,7 +29,7 @@ body, html {
     object-fit: cover;
 }
 
-.logo {
+.logo{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -39,7 +39,7 @@ body, html {
     height: auto;  
 }
 
-.logo img {
+.logo img{
     width: 100%;   
     height: auto;  
     max-width: 100%; 
@@ -64,18 +64,18 @@ body, html {
 
 }
     
-.purchase:hover {
+.purchase:hover{
     background-color: #ffcc00; 
     color: #26262c; 
     border: 3px solid #ff6b00; 
     transform: scale(1.05); 
 }
 
-.purchase:active {
+.purchase:active{
     transform: translateY(1px);
 }
 
-.abouts {
+.abouts{
     position: relative;
     z-index: 5;
     width: 90%; 
@@ -94,11 +94,11 @@ body, html {
         backdrop-filter: blur(2px);
 }
 
-#head {
+#head{
     text-align: center;
 }
 
-.mhsocialsbar {
+.mhsocialsbar{
     position: fixed;
     left: 0;
     top: 70%;
@@ -114,7 +114,7 @@ body, html {
     z-index: 1000;
 }
 
-.socialtext {
+.socialtext{
     color: #ffffff;
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -125,12 +125,12 @@ body, html {
     transform: rotate(180deg);
 }
 
-.icon {
+.icon{
     display: block;
     transition: all 0.25s ease; 
 }
 
-.icon img {
+.icon img{
     width: 22px;
     height: 22px;
     filter: 
@@ -140,7 +140,7 @@ body, html {
     transition: all 0.25s ease; 
 }
 
-.icon:hover img {
+.icon:hover img{
     filter: 
         grayscale(0%) 
         brightness(1.2)
@@ -148,7 +148,7 @@ body, html {
     transform: scale(1.15); 
 }
 
-.slideshow {
+.slideshow{
     position: relative;
     max-width: 1000px;
     margin: 0 auto;
@@ -158,7 +158,7 @@ body, html {
     overflow: hidden;
 }
 
-.weapon-item {
+.weapon-item{
     display: none;
     min-width: 100%;
     transition: transform 0.5s ease;
@@ -167,11 +167,11 @@ body, html {
     border-style: solid;
 }
 
-.weapon-item.active {
+.weapon-item.active{
     display: block;
 }
 
-.weapon-item video {
+.weapon-item video{
     width: 100%;
     height: auto;
     max-height: 400px;
@@ -181,7 +181,7 @@ body, html {
 }
 
 
-.btns {
+.btns{
     display: flex; 
     justify-content: center; 
     margin-top: 10px; 
@@ -192,7 +192,7 @@ body, html {
     color: #000;
 }
 
-.prev, .next {
+.prev, .next{
     cursor: pointer;
     width: 50px;
     height: 50px;
@@ -207,16 +207,52 @@ body, html {
     margin: 0 10px; 
 }
 
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.253);
     transform: scale(1.1);
 }
 
-#head {
+#head{
     color: white;
 }
 
-#foot {
+.monsters{
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px 0;
+}
+
+.newbutton{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 12px 30px;
+    background-color: #ff6b00;
+    color: white;
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #ffcc00;
+    border-radius: 50px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+.newbutton:hover{
+    background-color: #ffcc00;
+    color: #26262c;
+    border: 3px solid #ff6b00;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+    border-radius: 50px; 
+}
+
+.newbutton:active{
+    transform: translateY(1px);
+}
+
+#foot{
     text-align: center; 
     color: white; 
     background-color: rgba(255, 136, 39, 0.281);

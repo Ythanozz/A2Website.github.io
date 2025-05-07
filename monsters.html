@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Hunter: Wilds</title>
+    <link rel="stylesheet" href="monsters.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio autoplay loop hidden>
+        <source src="monsterost2.mp3" type="audio/mpeg">
+        Your browser does not support audio element.
+    </audio> 
+
+    <div class="logo">
+        <a href="index.html">
+            <img src="logo2.png" alt="return to prev page" class="logoimg">
+        </a>
+    </div>
+
+    <div class="slideshow">
+        <div class="monsterslide active">
+            <img src="monpic1.jpeg" alt="Arkveld" class="image">
+            <div class="info">Arkveld</div>
+        </div>
+        
+        <div class="monsterslide">
+            <img src="monpic2.jpeg" alt="Rey Dau" class="image">
+            <div class="info">Rey Dau</div>
+        </div>
+        
+        <div class="monsterslide">
+            <img src="monpic3.jpeg" alt="Uth Duna" class="image">
+            <div class="info">Uth Duna</div>
+        </div>
+        
+        <div class="monsterslide">
+            <img src="monpic4.jpeg" alt="Nu Udra" class="image">
+            <div class="info">Nu Udra</div>
+        </div>
+        
+        <div class="monsterslide">
+            <img src="monpic5.jpeg" alt="Jin Dahaad" class="image">
+            <div class="info">Jin Dahaad</div>
+        </div>
+
+        <div class="slides">
+            <button class="slidebtn" onclick="plusSlides(-1)">❮</button>
+            <button class="slidebtn" onclick="plusSlides(1)">❯</button>
+        </div>
+    </div>
+
+    <section class="more">
+        <h1 id="head">Any Many more ...</h1>
+    </section>
+
+    <script src="monsters.js"></script>
+</body>
+</html>
